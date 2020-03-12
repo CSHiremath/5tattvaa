@@ -1,6 +1,9 @@
 body {
   font-family: 'Josefin Sans', sans-serif;
 }
+blockquote {
+  font-style: italic;
+}
 
 // User defined CSS
 .font-dancing {
@@ -66,6 +69,3 @@ hr{
   border: 2px solid;
 }
 
-blockquote{
-  font-style: italic;
-}
