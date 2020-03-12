@@ -15,6 +15,7 @@ import { HttpModule, Http } from '@angular/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ENV_PROVIDERS } from './environment';
 import { FooterComponent } from './shared/footer/footer.component';
+import { LandingPageComponent } from './landingPage/landingPage.component';
 
 // Application wide providers
 const APP_PROVIDERS = [
@@ -35,7 +36,8 @@ export type StoreType = {
     BlankTemplateComponent,
     HeaderComponent,
     LeftNavTemplateComponent,
-    FooterComponent
+    FooterComponent,
+    // LandingPageComponent
   ],
   imports: [
     BrowserModule,

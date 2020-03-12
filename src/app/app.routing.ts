@@ -19,7 +19,7 @@ export const routes: Routes = [{
   children: [
     {
       path: 'home',
-      loadChildren: () => import('./payment/payment.module').then(m => m.PaymentModule),
+      loadChildren: () => import('./landingPage/landingPage.module').then(m => m.LandingPageModule),
       data: {
         title: 'payment Page'
       },
