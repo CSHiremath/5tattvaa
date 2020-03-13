@@ -22,30 +22,39 @@
       <li class="nav-item">
         <a class="nav-link text-white" href="#Home"> Home
         </a>
+      </li>
       <li class="nav-item">
         <a class="nav-link text-white" href="#Philosophy"> Philosophy
         </a>
+      </li>
       <li class="nav-item">
         <a class="nav-link text-white" href="#Learning">Learning Tools
         </a>
+      </li>
       <li class="nav-item">
         <a class="nav-link text-white" href="#Events">Events
         </a>
+      </li>
       <li class="nav-item">
         <a class="nav-link text-white" href="#Admissions">Admissions
         </a>
+      </li>
       <li class="nav-item">
         <a class="nav-link text-white" href="#Gallery">Gallery
         </a>
+      </li>
       <li class="nav-item">
         <a class="nav-link text-white" href="#Contact">Contact Us
         </a>
+      </li>
       <li class="nav-item">
         <a class="nav-link text-white" href="#About">About
         </a>
+      </li>
       <li class="nav-item">
-        <a class="nav-link text-white" href="#More">More
+        <a class="nav-link text-white" href="#ParentsCorner">Parents' Corner
         </a>
+      </li>
     </ul>
   </nav>
 </div>
@@ -224,7 +233,7 @@
 <!-- Philosophy -->
 <section id="Philosophy">
   <hr>
-  <h1 class="pt-3 pl-2 font-dancing">Philosophy</h1>
+  <h1 class="pt-3 pl-2 font-dancing  font-weight-bold text-center ">Philosophy</h1>
   <div class="container">
     <div class="row">
       <div class="col-8">
@@ -317,7 +326,7 @@
 <!-- About -->
 <section id="About">
   <hr>
-  <h1 class="pt-3 pl-2 font-dancing">About</h1>
+  <h1 class="pt-3 pl-2 font-dancing  font-weight-bold text-center ">About</h1>
   <div class="container">
     <h2 class="font-dancing text-center">Our Vision</h2>
     <h3 class="font-dancing text-center">A leader in excellent early education</h3>
@@ -359,7 +368,7 @@
 <!-- Events -->
 <section id="Events">
   <hr>
-  <h1 class="pt-3 pl-2 font-dancing">Events</h1>
+  <h1 class="pt-3 pl-2 font-dancing  font-weight-bold text-center ">Events</h1>
   <div class="container">
     <h2 class="font-dancing text-center">Upcoming Events</h2>
     <div class="bgColor5 pt-2 pb-2 text-white">
@@ -445,8 +454,96 @@
 <!-- Admissions -->
 <section id="Admissions">
   <hr>
-  <h1 class="pt-3 pl-2 font-dancing">Admissions</h1>
+  <h1 class="pt-3 pl-2 font-dancing  font-weight-bold text-center ">Admissions</h1>
   <div class="container">
+    <h4 class="text-center">Day care and transport facility available</h4>
+
+    <div class="bgColor3 text-white p-2">
+      <h3 class="font-dancing"> Admissions / Enquiry Form </h3>
+
+      <!-- <form class="form-horizontal" [formGroup]="form"> -->
+      <form class="form-horizontal">
+        <div class="form-group">
+          <div class="row pt-2">
+            <label class="col-2 offset-1 control-label" for="form-control-1">Name of the Child<span
+                class="required">*</span></label>
+            <div class="col-8">
+              <input class="form-control" type="text" placeholder="e.g. John Doe">
+              <!--add -> [formControl]="name" above -->
+            </div>
+          </div>
+          <div class="row pt-2">
+            <label class="col-2 offset-1 control-label" for="form-control-1">Name of the Parent<span
+                class="required">*</span></label>
+            <div class="col-8">
+              <input class="form-control" type="text" placeholder="e.g. Jane Doe">
+            </div>
+          </div>
+          <div class="row pt-2">
+            <label class="col-2 offset-1 control-label" for="form-control-1">Mobile Number<span
+                class="required">*</span></label>
+            <div class="col-8">
+              <input class="form-control" type="text" placeholder="e.g. 9108164444">
+            </div>
+          </div>
+          <div class="row pt-2">
+            <label class="col-2 offset-1 control-label" for="form-control-1">Date Of Birth<span
+                class="required">*</span></label>
+            <div class="col-8">
+              <input class="form-control" type="text" placeholder="e.g. DD-MM-YYYY">
+            </div>
+          </div>
+          <div class="row pt-2">
+            <label class="col-2 offset-1 control-label" for="form-control-1">Email<span
+                class="required">*</span></label>
+            <div class="col-8">
+              <input class="form-control" type="text" placeholder="e.g. JohnDoe@examplemail.com">
+            </div>
+          </div>
+          <div class="row pt-2">
+            <label class="col-2 offset-1 control-label" for="form-control-1">Residential Address<span
+                class="required">*</span></label>
+            <div class="col-8">
+              <textarea class="form-control" type="text" placeholder="e.g. " cols="30" rows="5"></textarea>
+            </div>
+          </div>
+          <div class="row pt-2">
+            <label class="col-2 offset-1 control-label" for="form-control-1">Age Group<span
+                class="required">*</span></label>
+            <div class="col-8">
+              <div class="radio">
+                <label><input type="radio" name="optradio" checked>T1 (2-3 yrs)</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="optradio">T2 (3-4 yrs)</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="optradio">T3 (4-5 yrs)</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="optradio">T4 (5-6 yrs)</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="optradio">DayCare</label>
+              </div>
+              <div class="radio">
+              </div>
+            </div>
+          </div>
+          <div class="row pt-2">
+            <label class="col-2 offset-1 control-label" for="form-control-1">Transportation Required?<span
+                class="required">*</span></label>
+            <div class="col-8">
+              <input type="checkbox" value=""> Yes
+            </div>
+          </div>
+          <div class="text-center">
+            <button class="btn bgColor5 pt-2 btn-lg rounded-pill text-white" type="submit"
+              onclick="submit()">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
 
   </div>
 </section>
@@ -455,7 +552,7 @@
 <!-- Gallery -->
 <section id="Gallery">
   <hr>
-  <h1 class="pt-3 pl-2 font-dancing">Gallery</h1>
+  <h1 class="pt-3 pl-2 font-dancing  font-weight-bold text-center ">Gallery</h1>
   <div class="container">
 
   </div>
@@ -465,19 +562,237 @@
 <!-- Contact -->
 <section id="Contact">
   <hr>
-  <h1 class="pt-3 pl-2 font-dancing">Contact</h1>
+  <h1 class="pt-3 pl-2 font-dancing  font-weight-bold text-center ">Contact</h1>
   <div class="container">
+    <h4 class="text-center">Day care and transport facility available</h4>
+    <div class="row">
+      <div class="col-6">
+        <div class="bgColor4 text-white p-2">
+          <h3 class="font-dancing"> Suggestions / Questions? </h3>
+
+          <!-- <form class="form-horizontal" [formGroup]="form"> -->
+          <form class="form-horizontal">
+            <div class="form-group">
+              <div class="row pt-2">
+                <label class="col-2 offset-1 control-label" for="form-control-1">Name<span
+                    class="required">*</span></label>
+                <div class="col-8">
+                  <input class="form-control" type="text" placeholder="e.g. John Doe">
+                  <!--add -> [formControl]="name" above -->
+                </div>
+              </div>
+              <div class="row pt-2">
+                <label class="col-2 offset-1 control-label" for="form-control-1">Email<span
+                    class="required">*</span></label>
+                <div class="col-8">
+                  <input class="form-control" type="text" placeholder="e.g. JohnDoe@examplemail.com">
+                </div>
+              </div>
+              <div class="row pt-2">
+                <label class="col-2 offset-1 control-label" for="form-control-1">Subject<span
+                    class="required">*</span></label>
+                <div class="col-8">
+                  <input class="form-control" type="text">
+                </div>
+              </div>
+              <div class="row pt-2">
+                <label class="col-2 offset-1 control-label" for="form-control-1">Message<span
+                    class="required">*</span></label>
+                <div class="col-8">
+                  <textarea class="form-control" type="text" cols="30" rows="5"></textarea>
+                </div>
+              </div>
+
+              <div class="text-center">
+                <button class="btn bgColor3 pt-2 btn-lg rounded-pill text-white" type="submit"
+                  onclick="submitSuggestions()">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col-6">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.9378823328425!2d77.64788061413398!3d12.847288621071522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6b6319e5cfff%3A0xc086d0dc6abeda66!2s5Tattvaa%20Preschool%20and%20Daycare!5e0!3m2!1sen!2sin!4v1584004200683!5m2!1sen!2sin"
+          width="600" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+          tabindex="0"></iframe>
+      </div>
+    </div>
+    <div class="row pt-3">
+      <div class="col-12 ">
+        <h3 class="font-dancing text-center">
+          <strong>School Timings: </strong> 8:00 AM - 8:00 PM
+        </h3>
+        <h5 class="text-center">
+          <i class="textBlack fa fa-map-marker"></i> 4 & 5, 10th Main Road, <br> Celebrity Paradise Layout, <br>
+          Doddathogur,Electronic City <br>
+          Bangalore- 560 100 <br> <br>
+
+          <i class="textBlack fa fa-phone"></i> <a href="tel: 09108614444" class="textBlack text-decoration-none">
+            9108614444</a> /
+          <a href="tel:09108164444" class="textBlack text-decoration-none">9108164444</a>
+          <br>
+
+          <i class="textBlack fa fa-envelope"></i> <a href="mailto:5tattvaa@gmail.com"
+            class="textBlack text-decoration-none"> 5tattvaa@gmail.com</a> <br>
+
+          <!-- Website: www.5tattvaa.com -->
+        </h5>
+      </div>
+    </div>
 
   </div>
 </section>
 <!-- /Contact -->
 
-<!-- More -->
-<section id="More">
+<!-- ParentsCorner -->
+<section id="ParentsCorner">
   <hr>
-  <h1 class="pt-3 pl-2 font-dancing">More</h1>
+  <h1 class="pt-3 pl-2 font-dancing  font-weight-bold text-center  ">Parents' Corner</h1>
   <div class="container">
+    <h3 class="font-dancing">Why Us?</h3>
+    <p>With the number of preschools around you, how would you choose the right one for your child?</p>
+    <div class="row">
+      <div class="col-6">
+        <h3 class="font-dancing">Here are some questions that may help you make a better choice.</h3>
+        <ul>
+          <li>What difference can quality early education make to a child's learning?</li>
+          <li>Is early learning all about learning through fun, music, art, fantasy or is there more?</li>
+          <li>Why does research say that learning stops at 7 and application starts from then on?</li>
+          <li>What is the right age to send your child to a preschool?</li>
+          <li>Is it better to send your child to a regular K-12 school or an Early Education Centre?</li>
+          <li>Do children learn best individually, in small groups or large ones?</li>
+          <li>Will your child be able to transition well into class 1 in a regular school?</li>
+          <li>Does technology hurt or help the learning of a young child?</li>
+          <li>What is the meaning of curriculum in a preschool? </li>
+          <li>What is Montessori, kindergarten, playway, multiple-
+            intelligence etc.?</li>
+        </ul>
+      </div>
+      <div class="col-6">
+        <div class="bgColor4 text-white p-2">
+          <h3 class="font-dancing"> Speak Out! </h3>
 
+          <!-- <form class="form-horizontal" [formGroup]="form"> -->
+          <form class="form-horizontal">
+            <div class="form-group">
+              <div class="row pt-2">
+                <label class="col-2 offset-1 control-label" for="form-control-1">Name<span
+                    class="required">*</span></label>
+                <div class="col-8">
+                  <input class="form-control" type="text" placeholder="e.g. John Doe">
+                  <!--add -> [formControl]="name" above -->
+                </div>
+              </div>
+              <div class="row pt-2">
+                <label class="col-2 offset-1 control-label" for="form-control-1">Email<span
+                    class="required">*</span></label>
+                <div class="col-8">
+                  <input class="form-control" type="text" placeholder="e.g. JohnDoe@examplemail.com">
+                </div>
+              </div>
+              <div class="row pt-2">
+                <label class="col-2 offset-1 control-label" for="form-control-1">Subject<span
+                    class="required">*</span></label>
+                <div class="col-8">
+                  <input class="form-control" type="text">
+                </div>
+              </div>
+              <div class="row pt-2">
+                <label class="col-2 offset-1 control-label" for="form-control-1">Message<span
+                    class="required">*</span></label>
+                <div class="col-8">
+                  <textarea class="form-control" type="text" cols="30" rows="5"></textarea>
+                </div>
+              </div>
+
+              <div class="text-center">
+                <button class="btn bgColor3 mt-3 btn-lg rounded-pill text-white" type="submit"
+                  onclick="submitSuggestions()">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <h2 class="font-dancing text-center">Please visit us for answers to all above and more...</h2>
   </div>
 </section>
-<!-- /More -->
+<!-- /ParentsCorner -->
+<div class="pt-5"></div>
+<div class="pt-5"></div>
+
+<!-- footer -->
+<footer class="page-footer font-small pt-3 bgBlack text-white">
+  <div class="container-fluid text-center text-md-left">
+    <div class="row">
+      <div class="col-3 mt-md-0 mt-3">
+        <p><i class="fa fa-map-marker"></i> 4 & 5, 10th Main Road, <br> Celebrity Paradise Layout, <br>
+          Doddathogur,Electronic City <br>
+          Bangalore- 560 100 <br> <br>
+          <i class="fa fa-phone"></i> <a href="tel: 09108614444" class="text-white text-decoration-none">
+            9108614444</a> /
+          <a href="tel:09108164444" class="text-white text-decoration-none">9108164444</a> <br>
+          <i class="fa fa-envelope"></i> <a href="mailto:5tattvaa@gmail.com"
+            class="text-white text-decoration-none"> 5tattvaa@gmail.com</a>
+        </p>
+      </div>
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <div class="col-1 mb-md-0 mb-3">
+        <ul class="list-unstyled">
+          <li>
+            <a class="text-white" href="#Home"> Home
+            </a>
+          </li>
+          <li>
+            <a class="text-white" href="#Philosophy"> Philosophy
+            </a>
+          </li>
+          <li>
+            <a class="text-white" href="#Learning">Learning Tools
+            </a>
+          </li>
+          <li>
+            <a class="text-white" href="#Events">Events
+            </a>
+          </li>
+          <li>
+            <a class="text-white" href="#Admissions">Admissions
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-1 mb-md-0 mb-3">
+        <ul class="list-unstyled">
+          <li>
+            <a class="text-white" href="#Gallery">Gallery
+            </a>
+          </li>
+          <li>
+            <a class="text-white" href="#Contact">Contact Us
+            </a>
+          </li>
+          <li>
+            <a class="text-white" href="#About">About
+            </a>
+          </li>
+          <li>
+            <a class="text-white" href="#ParentsCorner">Parents' Corner
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-7 text-right">
+        <a href="#" class="back-to-top">
+          <i class="fa fa-chevron-up text-white"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a class="text-white" href="http://techwedge.com/">Techwedge Software Solutions</a>
+  </div>
+</footer>
+<!-- Footer -->
+<!-- /footer -->

@@ -15,4 +15,10 @@ export class LandingPageComponent implements OnInit {
     loadMoreTestimonials(){
         console.log("loading");
     }
+    submit(){
+       console.log("Submit Called"); 
+    }
+    submitSuggestions(){
+        console.log("submitSuggestions Called"); 
+    }
 }
